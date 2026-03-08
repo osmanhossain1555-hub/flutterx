@@ -468,7 +468,7 @@ document.getElementById('saveTxBtn').addEventListener('click', event => {
   document.getElementById(id).addEventListener('change', renderTransactions);
 });
 
-// Install behavior
+/ Install behavior
 window.addEventListener('beforeinstallprompt', e => {
   e.preventDefault();
   deferredPrompt = e;
